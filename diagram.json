@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "author": "Ashmit Sharma",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-7segment", "id": "sevseg1", "top": 14.58, "left": -119.72, "attrs": {} },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 3.95,
+      "left": -57.6,
+      "attrs": { "value": "1000" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "sevseg1:A", "esp:2", "green", [ "v-27.96", "h220.8", "v172.8" ] ],
+    [ "sevseg1:B", "esp:0", "green", [ "v-37.56", "h220.8", "v172.8" ] ],
+    [ "sevseg1:C", "esp:4", "green", [ "v153.6", "h249.6", "v-105.6" ] ],
+    [ "sevseg1:D", "esp:16", "green", [ "v163.2", "h278.4", "v-115.2" ] ],
+    [ "sevseg1:E", "esp:17", "green", [ "v172.8", "h297.6", "v-134.4" ] ],
+    [ "sevseg1:F", "esp:5", "green", [ "v-47.16", "h259.2", "v144" ] ],
+    [ "sevseg1:G", "esp:18", "green", [ "v-56.76", "h278.4", "v144" ] ],
+    [ "esp:3V3", "r1:2", "red", [ "h0" ] ],
+    [ "r1:1", "sevseg1:COM.2", "red", [ "v-9.6", "h-38.4" ] ]
+  ],
+  "dependencies": {}
+}
