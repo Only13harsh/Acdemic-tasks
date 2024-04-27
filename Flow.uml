@@ -1,0 +1,24 @@
+@startuml
+
+start
+:Connect ESP32 to Wi-Fi;
+:Initialize Blynk connection;
+:Read soil moisture level;
+if (Is soil moisture below threshold?) then (yes)
+  :Check water level;
+  if (Is water available?) then (yes)
+    :Turn on water pump;
+    :Wait for specified duration;
+    :Turn off water pump;
+  else (no)
+    :Notify user to refill water;
+  endif
+else (no)
+  :Continue monitoring soil moisture;
+endif
+:Read temperature and humidity;
+:Update Blynk app with sensor data;
+repeat
+stop
+
+@enduml
