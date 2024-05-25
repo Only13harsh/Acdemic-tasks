@@ -6,7 +6,7 @@ using namespace std;
 string generateApplication(bool isIll, bool isAttendingWedding) {
     string reason;
     if (isIll) {
-        reason = "due to illness.";
+        reason = "due to severe illness.";
     } else if (isAttendingWedding) {
         reason = "as I have to attend a wedding.";
     } else {
