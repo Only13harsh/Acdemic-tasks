@@ -6,7 +6,7 @@ set_functions = [
     'symmetric_difference_update', 'union', 'update'
 ]
 
-# Create a set
+# create a set
 s = set([1, 2, 3])
 
 # Execute all set functions
