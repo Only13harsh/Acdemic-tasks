@@ -2,7 +2,7 @@ calculator <- function() {
   repeat {
     # Display menu
     cat("Choose an operation:\n")
-    cat("1. Addition\n")
+    cat("1. Addition \n")
     cat("2. Subtraction\n")
     cat("3. Multiplication\n")
     cat("4. Division\n")
