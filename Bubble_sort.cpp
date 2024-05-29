@@ -33,7 +33,7 @@ int main()
     cout<<"Before sorting array elements are - \n";
     print(a, n);
     bubble(a, n);
-    cout<<"\nAfter sorting array elements are - \n";
+    cout<<"\nAfter  sorting array elements are - \n";
     print(a, n);
 return 0;
 }
