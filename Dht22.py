@@ -22,7 +22,7 @@ while True:
         if temp > 25:
             green_led.on()
             red_led.off()
-            lcd.putstr('AC on\nTemp: {:.1f}C\nHum: {:.1f}%'.format(temp, hum))
+            lcd.putstr('AC on\nTemp:  {:.1f}C\nHum: {:.1f}%'.format(temp, hum))
         elif temp < 20:
             red_led.on()
             green_led.off()
