@@ -18,9 +18,9 @@ int main() {
         }
     }
 
-    cout << "Sum: " << sum << endl;
-    cout << "Max: " << max << endl;
-    cout << "Min: " << min << endl;
+    cout << "Sum : " << sum << endl;
+    cout << "Max : " << max << endl;
+    cout << "Min : " << min << endl;
 
     return 0;
 }
