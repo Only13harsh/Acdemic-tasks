@@ -40,5 +40,5 @@ while True:
     distance = measure_distance()
     lcd.clear()
     lcd.move_to(0, 0)
-    lcd.putstr(f"Distance: {distance:.2f} cm")
+    lcd.putstr(f"Distance : {distance:.2f} cm")
     sleep(2)
