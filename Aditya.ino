@@ -19,7 +19,7 @@ const int ir=27;
 const int buzz=18;
 const int led=25;
 const char* ssid = "iPhone";   // your network SSID (name) 
-const char* password = "1234567890";   // your network password
+const char* password = "123456790";   // your network password
 
 WiFiClient  client;
 
