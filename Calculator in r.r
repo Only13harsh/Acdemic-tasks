@@ -26,7 +26,7 @@ divide <- function(x, y) {
 calculate <- function(operation, x, y) {
   switch(operation,
          "add" = add(x, y),
-         "subtract" = subtract(x, y),
+         "subtract " = subtract(x, y),
          "multiply" = multiply(x, y),
          "divide" = divide(x, y),
          stop("Invalid operation"))
