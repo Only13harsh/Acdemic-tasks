@@ -6,7 +6,7 @@ factorial <- function(n) {
 }
 n <- as.integer(readline(prompt = "Enter a number to find the factorial: "))
 result_fact <- factorial(n)
-cat("The factorial of", n, "is", result_fact)
+cat("The factorial of ", n, "is", result_fact)
 
 n <- as.integer(readline(prompt = "Enter a number to find the factorial: "))
 result_fact <- factorial(n)
