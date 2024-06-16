@@ -26,7 +26,7 @@ while True:
     Red4.on()
     Green2.off()
     Green4.off()
-    print("North Go |South GoO---")
+    print("North Go | South GoO---")
     sleep(4)
     Red3.off()
     Green1.off()
