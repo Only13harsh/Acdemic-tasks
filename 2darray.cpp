@@ -4,7 +4,7 @@ int main()
 {
     int i, j;
     cout << "Enter the number of rows: ";
-    cin >> i;
+    cin >> i; 
     cout << "Enter the number of columns: ";
     cin >> j;
     int arr[i][j];
