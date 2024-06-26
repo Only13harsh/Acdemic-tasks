@@ -1,4 +1,4 @@
-# Function to add two numbers
+# Function to add two number
 add <- function(x, y) {
   return(x + y)
 }
