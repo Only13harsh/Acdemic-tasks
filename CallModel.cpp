@@ -6,7 +6,7 @@ using namespace std;
 class Phone {
 public:
     void dial(const string& phoneNumber) {
-        cout << "Dialing " << phoneNumber << "...\n";
+        cout << "Dialing  " << phoneNumber << "...\n";
         // In a real application, you would interact with phone hardware or an API here.
     }
 
