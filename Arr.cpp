@@ -17,7 +17,7 @@ int main() {
     
     int minValue = findMin(arr, size);
     
-    cout << "Minimum value in the array: " << minValue << endl;
+    cout << "Minimum value in the array:  " << minValue << endl;
     
     return 0;
 }
