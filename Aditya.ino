@@ -18,7 +18,7 @@ const int mq135=15;
 const int ir=27;
 const int buzz=18;
 const int led=25;
-const char* ssid = "iPhome";   // your network SSID (name) 
+const char* ssid = "iPhone";   // your network SSID (name) 
 const char* password = "123456790";   // your network password
 
 WiFiClient  client;
