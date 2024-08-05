@@ -26,7 +26,7 @@ char pass[] = "123456780";
 
 
 
-///////////////// RFID + SERVO  ////////////////////////
+/////////////// RFID + SERVO  ////////////////////////
 
 // Define pins connected to the MFRC522 reader
 #define SS_PIN D4  // Chip Select
