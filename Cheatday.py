@@ -1,2 +1,2 @@
 print("hello world")
-print ("cheat day")
+print ("cheat day ")
