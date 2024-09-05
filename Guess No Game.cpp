@@ -8,7 +8,7 @@ int main() {
     int num = rand() % 100 + 1; // Generate a number between 1 and 100
     int guess = 0;
 
-    cout << "Guess My Number Game\n\n";
+    cout << "Guess My number Game\n\n";
 
     do {
         cout << "Enter a guess between 1 and 100 : ";
